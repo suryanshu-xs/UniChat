@@ -1,0 +1,42 @@
+const unichatUsers = [
+    {
+        name:'Suryanshu',
+        email:'suryanshu@gmail.com',
+        friends:[
+            {
+                name:'Sahil',
+                room:'sahilandsuryanshu',
+                email:'sahil@gmail.com'
+            },
+            {
+                name:'Priyali',
+                room:'priyaliandsuryanshu',
+                email:'priyali@gmail.com'
+            }
+        ]
+    },
+    {
+        name:'Sahil',
+        email:'sahil@gmail.com',
+        friends:[
+            {
+                name:'Suryanshu',
+                room:'sahilandsuryanshu',
+                email:'suryanshu@gmail.com'
+            }
+        ]
+    },
+    {
+        name:'Priyali',
+        email:'priyali@gmail.com',
+        friends:[
+            {
+                name:'Suryanshu',
+                room:'priyaliandsuryanshu',
+                email:'suryanshu@gmail.com'
+            }
+        ]
+    }
+]
+
+export default unichatUsers

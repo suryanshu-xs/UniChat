@@ -1,0 +1,74 @@
+.login-or-signup-component {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    56deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(15, 103, 226, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: 0.1px solid white;
+  min-height: 99.8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container,
+.signup-container {
+  min-width: clamp(290px, 50vw, 330px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 12px;
+  padding: 0.5rem;
+}
+.login-signup-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(56, 56, 56);
+
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+
+}
+
+.logo-container-img {
+  width: 90px;
+}
+
+.login-signup-form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 75%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.login-signup-input{
+  padding: 0.25rem 0rem;
+  border: none;
+  outline: none;
+
+}
+.login-signup-input-container.signup{
+  margin: 0.8rem 0rem;
+}
+.login-signup-input-container{
+  display: flex;
+  margin: 1rem 0rem;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 0.25rem 0.65rem;
+}
+.login-signup-form.signup-form{
+  margin-bottom: 8px;
+}

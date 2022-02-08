@@ -1,0 +1,15 @@
+
+.app-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.message-container{
+  border: 2px solid gray;
+  padding: 0.5rem;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  overflow: auto;
+}

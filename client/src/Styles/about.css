@@ -1,0 +1,110 @@
+.about-page{
+  padding: 0rem 1rem;
+}
+  .about-page-heading {
+    font-size: 1.85rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(47, 47, 47);
+    margin-top: 1rem;
+  }
+  
+  .about-info-text,
+  .about-more-info {
+    padding-top: 1rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  .thank-you {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+  .designed-by {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .designer-name-email {
+    display: flex;
+    flex-direction: column;
+  }
+  .designer-name-email span {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .about-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 4rem auto;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-div {
+    width: fit-content;
+  
+  }
+  .about-div {
+    max-width: 500px;
+  
+  }
+  .contact-form input {
+    display: inline-block;
+    margin: 1rem 0rem;
+    padding: 0.7rem 0.8rem;
+    border: none;
+    outline: none;
+    background-color: rgb(233, 233, 233);
+    border-radius: 30px;
+    font-weight: 500;
+    color: rgb(59, 59, 59);
+    width: 250px;
+  }
+  .contact-form textarea {
+    display: inline-block;
+    border: none;
+    outline: none;
+    background-color: rgb(233, 233, 233);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.7rem 0.8rem;
+    min-width: 400px;
+    font-weight: 500;
+    color: rgb(59, 59, 59);
+    border-radius: 10px;
+  }
+  .contact-div-heading{
+      text-align: center;
+      margin: 0.67rem 0rem;
+      font-weight: 500;
+      color: rgb(41, 41, 41);
+  }
+  .btn-container-form{
+      margin-top: 1.5rem;
+  }
+  
+  
+  @media (max-width:895px){
+      .about-info-container{
+          justify-content: center;
+      }
+      .contact-div{
+          margin-top: 1rem;
+      }
+      .contact-form textarea{
+          min-width: 300px;
+      }
+  }
+  @media (max-width:325px){
+      .contact-form textarea{
+          min-width: 250px;
+      }
+  }
